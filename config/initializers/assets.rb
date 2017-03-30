@@ -10,7 +10,8 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
 Rails.application.config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
-Rails.application.config.assets.precompile += %w( gmap3_min.js )
+#Rails.application.config.assets.precompile += %w( gmap3_min.js )
+Rails.application.config.assets.precompile += %w( modal.js )
 Rails.application.config.assets.precompile += %w( jquery-2_1_4_min.js )
 Rails.application.config.assets.precompile += %w( jquery-ui-1_10_4_custom_min.js )
 Rails.application.config.assets.precompile += %w( jquery_ba-outside-events_min.js )

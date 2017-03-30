@@ -19,7 +19,7 @@
               <div class="header-login">
                 <button class="login-toggle header-btn"><i class="fa fa-power-off"></i> Login</button>
                 <div class="header-form">
-                  <form action="index.html" class="default-form">
+                  <form action="/" class="default-form">
                     <p class="alert-message warning"><i class="ico fa fa-exclamation-circle"></i> All fields are required! <i class="fa fa-times close"></i></p>
                     <p class="form-row">
                       <input class="required email" type="text" placeholder="Email">
@@ -43,10 +43,8 @@
                 <button class="header-btn"><i class="fa fa-globe"></i>EN</button>
                 <nav class="header-nav">
                   <ul class="custom-list">
-                    <li class="active"><a href="#">EN</a></li>
-                    <li><a href="#">DE</a></li>
                     <li><a href="#">FR</a></li>
-                    <li><a href="#">IT</a></li>
+                    <li><a href="#">EN</a></li>
                   </ul>
                 </nav>
               </div>
@@ -62,12 +60,12 @@
             <div class="row">
               <div class="col-lg-5 col-md-5 col-sm-12">
                 <ul class="nav navbar-nav main-nav">
-                  <li class="active"><a href="index.html">Home</a></li>
+                  <li class="active"><a href="/">Home</a></li>
                   <li class="has-submenu">
                     <a href="#">Rooms</a>
                     <ul class="sub-menu custom-list">
-                      <li><a href="listing.html">Rooms List View</a></li>
-                      <li><a href="listing2.html">Rooms Grid View</a>
+                      <li><a href="/root-available-list">Rooms Available List</a></li>
+                      <!-- <li><a href="listing2.html">Rooms Grid View</a>
                       </li>
                       <li class="has-submenu">
                         <a href="#">Luxury Apartments</a>
@@ -75,31 +73,31 @@
                           <li><a href="room4.html">Luxury Apartment 1</a></li>
                           <li><a href="room.html">Luxury Apartment 2</a></li>
                         </ul>
-                      </li>
+                      </li> 
                       <li class="has-submenu">
                         <a href="#">Deluxe Suites</a>
                         <ul class="sub-menu custom-list">
                           <li><a href="room2.html">Deluxe Suite 1</a></li>
                           <li><a href="room3.html">Deluxe Suite 2</a></li>
                         </ul>
-                      </li>
+                      </li> -->
                     </ul>
                   </li>
-                  <li><a href="staff.html">Our Staff</a></li>
-                  <li><a href="locations.html">Locations</a></li>
+                  <li><a href="/our-stuffs">Our Staff</a></li>
+                  <li><a href="/our-location">Locations</a></li>
                 </ul>
               </div>
               <div class="col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-12 col-sm-offset-0">
                 <ul class="nav navbar-nav main-nav pull-right text-right">
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="testimonials.html">Testimonials</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
                   <li class="has-submenu">
                     <a href="news.html">News</a>
                     <ul class="sub-menu custom-list">
-                      <li><a href="single_post.html">Single Post</a></li>
+                      <li><a href="#">Single Post</a></li>
                     </ul>
                   </li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -109,3 +107,23 @@
     </div>
   </header>
   <!-- End Header -->
+  <!-- Start Header-Toggle -->
+  <div id="header-toggle">
+    <i class="fa fa-bars"></i>
+  </div>
+  <!-- End Header-Toggle -->
+
+  <!-- Start Header-Logo -->
+  <div class="header-logo">
+    <div class="header-logo-inner">
+      <div class="css-table">
+        <div class="css-table-cell">
+          <a href="#">
+            
+            <%= image_tag('logo.png', alt: '', class: 'img-responsive center-block') %>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Header-Logo -->
