@@ -7,4 +7,10 @@ class PagesController < ApplicationController
   end
   def location
   end
+  def about
+  end
+  def testimonials
+  end
+  def contact_us
+  end
 end
