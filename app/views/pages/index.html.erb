@@ -1,0 +1,430 @@
+
+  
+  <!-- Start Header-Toggle -->
+  <div id="header-toggle">
+    <i class="fa fa-bars"></i>
+  </div>
+  <!-- End Header-Toggle -->
+
+  <!-- Start Header-Logo -->
+  <div class="header-logo">
+    <div class="header-logo-inner">
+      <div class="css-table">
+        <div class="css-table-cell">
+          <a href="#">
+            <!-- <img src="img/logo.png" alt="" class="img-responsive center-block"> -->
+            <%=image_tag('logo.png', alt: '', class: 'img-responsive center-block')%>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Header-Logo -->
+
+  <!-- Start Banner -->
+  <section id="banner">
+
+    <div class="banner-bg">
+      <div class="banner-bg-item">
+        <!-- <img src="img/banner-bg-1.jpg" alt=""> -->
+        <%=image_tag('banner-bg-1.jpg', alt: '')%>
+      </div>
+      <div class="banner-bg-item">
+        <!-- <img src="img/banner-bg-2.jpg" alt=""> -->
+        <%=image_tag('banner-bg-2.jpg', alt: '') %>
+      </div>
+      <div class="banner-bg-item">
+        <!-- <img src="img/banner-bg-3.jpg" alt=""> -->
+        <%=image_tag('banner-bg-3.jpg', alt: '') %>
+      </div>
+      <div class="banner-bg-item">
+        <!-- <img src="img/banner-bg-4.jpg" alt=""> -->
+        <%=image_tag('banner-bg-4.jpg', alt: '') %>
+      </div>
+    </div>
+
+    <div class="css-table">
+      <div class="css-table-cell">
+
+        <!-- Start Banner-Search -->
+        <div class="banner-search">
+          <div class="container">
+              <div id="hero-tabs" class="banner-search-inner">
+                <ul class="custom-list tab-title-list clearfix">
+                  <li class="tab-title active"><a href="#yachts">Hotel</a></li>
+                  <li class="tab-title"><a href="#privjet">Resorts</a></li>
+                  <li class="tab-title"><a href="#luxcars">Private suites</a></li>
+                  <li class="tab-title"><a href="#cartrans">Bed & breakfast</a></li>
+                </ul>
+                <ul class="custom-list tab-content-list">
+
+                  <!-- Start Hotel -->
+                  <li class="tab-content active">
+                    <form action="index.html" class="default-form">
+                      <span class="arrival calendar">
+                        <input type="text" name="arrival" placeholder="Arrival" data-dateformat="m/d/y">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                      <span class="departure calendar">
+                        <input type="text" name="departure" placeholder="Departure" data-dateformat="m/d/y">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                      <span class="adults select-box">
+                        <select name="adults" data-placeholder="Adults" class="form-control">
+                          <option>Adults</option>
+                          <option value="1">1 adult</option>
+                          <option value="2">2 adults</option>
+                          <option value="3">3 adults</option>
+                          <option value="4">4 adults</option>
+                        </select>
+                      </span>
+                      <span class="children select-box">
+                        <select name="children" data-placeholder="Children" class="form-control">
+                          <option>Children</option>
+                          <option value="1">1 children</option>
+                          <option value="2">2 childrens</option>
+                          <option value="3">3 childrens</option>
+                          <option value="4">4 childrens</option>
+                        </select>
+                      </span>
+                      <span class="submit-btn">
+                        <button class="btn btn-transparent">Book Now</button>
+                        <a href="#" class="advanced">Advanced Search</a>
+                      </span>
+                    </form>
+                  </li>
+                  <!-- End Hotel -->
+
+                  <!-- Start Resorts -->
+                  <li class="tab-content">
+                    <form action="index.html" class="default-form">
+                      <span class="arrival calendar">
+                        <input type="text" name="arrival" placeholder="Arrival" data-dateformat="m/d/y">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                      <span class="departure calendar">
+                        <input type="text" name="departure" placeholder="Departure" data-dateformat="m/d/y">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                      <span class="adults select-box">
+                        <select name="adults" data-placeholder="Adults" class="form-control">
+                          <option>Adults</option>
+                          <option value="1">2</option>
+                          <option value="2">3</option>
+                          <option value="3">4</option>
+                        </select>
+                      </span>
+                      <span class="children select-box">
+                        <select name="children" data-placeholder="Children" class="form-control">
+                          <option>Children</option>
+                          <option value="1">2</option>
+                          <option value="2">3</option>
+                          <option value="3">4</option>
+                        </select>
+                      </span>
+                      <span class="submit-btn">
+                        <button class="btn btn-transparent">Book Now</button>
+                        <a href="#" class="advanced">Advanced Search</a>
+                      </span>
+                    </form>
+                  </li>
+                  <!-- End Resorts -->
+
+                  <!-- Start Private Suites -->
+                  <li class="tab-content">
+                    <form action="index.html" class="default-form">
+                      <span class="arrival calendar">
+                        <input type="text" name="arrival" placeholder="Arrival" data-dateformat="m/d/y">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                      <span class="departure calendar">
+                        <input type="text" name="departure" placeholder="Departure" data-dateformat="m/d/y">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                      <span class="adults select-box">
+                        <select name="adults" data-placeholder="Adults" class="form-control">
+                          <option>Adults</option>
+                          <option value="1">2 adults</option>
+                          <option value="2">3 adults</option>
+                          <option value="3">4 adults</option>
+                        </select>
+                      </span>
+                      <span class="children select-box">
+                        <select name="children" data-placeholder="Children" class="form-control">
+                          <option>Children</option>
+                          <option value="1">2</option>
+                          <option value="2">3</option>
+                          <option value="3">4</option>
+                        </select>
+                      </span>
+                      <span class="submit-btn">
+                        <button class="btn btn-transparent">Book Now</button>
+                        <a href="#" class="advanced">Advanced Search</a>
+                      </span>
+                    </form>
+                  </li>
+                  <!-- End Private Suites -->
+
+                  <!-- Start Bed & Breakfast -->
+                  <li class="tab-content">
+                    <form action="index.html" class="default-form">
+                      <span class="arrival calendar">
+                        <input type="text" name="arrival" placeholder="Arrival" data-dateformat="m/d/y">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                      <span class="departure calendar">
+                        <input type="text" name="departure" placeholder="Departure" data-dateformat="m/d/y">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                      <span class="adults select-box">
+                        <select name="adults" data-placeholder="Adults" class="form-control">
+                          <option>Adults</option>
+                          <option value="1">2</option>
+                          <option value="2">3</option>
+                          <option value="3">4</option>
+                        </select>
+                      </span>
+                      <span class="children select-box">
+                        <select name="children" data-placeholder="Children" class="form-control">
+                          <option>Children</option>
+                          <option value="1">2</option>
+                          <option value="2">3</option>
+                          <option value="3">4</option>
+                        </select>
+                      </span>
+                      <span class="submit-btn">
+                        <button class="btn btn-transparent">Book Now</button>
+                        <a href="#" class="advanced">Advanced Search</a>
+                      </span>
+                    </form>
+                  </li>
+                  <!-- End Bed & Breakfast -->
+
+                </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Banner-Search -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End Banner -->
+
+  <!-- Start About -->
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="preamble col-md-12">
+          <h3>About Hotel Petra</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eius exercitationem ab aspernatur, ratione officia animi. Rerum necessitatibus, culpa. Tenetur incidunt quasi unde libero molestias dicta doloremque, non aliquam ipsam!</p>
+        </div>
+        <div class="col-md-3 col-sm-6 feature text-center">
+          <div class="overlay">
+            <!-- <img src="img/about1.jpg" alt="" class="img-responsive"> -->
+            <%=image_tag('about1.jpg', alt: '', class: 'img-responsive') %>
+            <div class="overlay-shadow">
+              <div class="overlay-content">
+                <a href="#" class="btn btn-transparent-white">Read More</a>
+              </div>
+            </div>
+          </div>
+          <h4>Our Services</h4>
+          <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
+        </div>
+        
+        <div class="col-md-3 col-sm-6 feature text-center">
+          <div class="overlay">
+           <!--  <img src="img/about2.jpg" alt="" class="img-responsive"> -->
+            <%=image_tag('about2.jpg', alt: '', class: 'img-responsive') %>
+            <div class="overlay-shadow">
+              <div class="overlay-content">
+                <a href="#" class="btn btn-transparent-white">Read More</a>
+              </div>
+            </div>
+          </div>
+          <h4>Memberships</h4>
+          <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
+        </div>
+
+       <div class="col-md-3 col-sm-6 feature text-center">
+          <div class="overlay">
+           <!--  <img src="img/about3.jpg" alt="" class="img-responsive"> -->
+            <%=image_tag('about3.jpg', alt: '', class: 'img-responsive') %>
+            <div class="overlay-shadow">
+              <div class="overlay-content">
+                <a href="#" class="btn btn-transparent-white">Read More</a>
+              </div>
+            </div>
+          </div>
+          <h4>Our Agents</h4>
+          <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 feature text-center">
+          <div class="overlay">
+            <!-- <img src="img/about4.jpg" alt="" class="img-responsive"> -->
+            <%=image_tag('about4.jpg', alt: '', class: 'img-responsive') %>
+            <div class="overlay-shadow">
+              <div class="overlay-content">
+                <a href="#" class="btn btn-transparent-white">Read More</a>
+              </div>
+            </div>
+          </div>
+          <h4>Our Offices</h4>
+          <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <!-- Start Testimonials -->
+  <section class="testimonials">
+
+    <!-- Start Video Background -->
+    <div id="video_testimonials" data-vide-bg="video/ocean" data-vide-options="position: 0% 50%"></div>
+    <div class="video_gradient"></div>
+    <!-- End Video Background -->
+
+    <div class="container">
+      <div class="row">
+        <div class="preamble light col-md-12">
+          <h3>Testimonials</h3>
+        </div>
+
+        <div class="col-md-12">
+          <div id="owl-testimonials" class="owl-carousel owl-theme">
+
+            <!-- Start Container Item -->
+            <div class="item">
+              <div class="col-lg-12">
+                <blockquote class="quote">
+                  <cite>John Doe<span class="job">CEO - UOUapps</span></cite>
+                  <p class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui.
+                </blockquote>
+              </div>
+            </div>
+            <!-- End Container Item -->
+
+            <!-- Start Container Item -->
+            <div class="item">
+              <div class="col-lg-12">
+                <blockquote class="quote">
+                  <cite>John Kowalski<span class="job">CEO - UOUapps</span></cite>
+                  <p class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui.
+                </blockquote>
+              </div>
+            </div>
+            <!-- End Container Item -->
+
+            <!-- Start Container Item -->
+            <div class="item">
+              <div class="col-lg-12">
+                <blockquote class="quote">
+                  <cite>John Doe<span class="job">CEO - UOUapps</span></cite>
+                  <p class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui.
+                </blockquote>
+              </div>
+            </div>
+            <!-- End Container Item -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonials -->
+
+  <!-- Start Supertabs -->
+  <section class="supertabs">
+    <div class="container">
+      <div class="row">
+        
+        <!-- Start Tab-Navigation -->
+        <div class="col-md-4 tab-navigation">
+          <ul class="custom-list">
+            <li class="active">
+              <a data-toggle="tab" href="#fleet">
+                <h5 class="title">Highest Standards</h5>
+                <h6 class="subtitle">No compromises</h6>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#drivers">
+                <h5 class="title">Qualified Staff</h5>
+                <h6 class="subtitle">You are in good hands</h6>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#location">
+                <h5 class="title">Around the World</h5>
+                <h6 class="subtitle">Meet us everywhere</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Tab-Navigation -->
+
+        <!-- Start Tab-Content -->
+        <div class="col-md-8 tab-content">
+          <div id="fleet" class="tab-pane fade in active">
+            <!-- <img src="img/supertabs.jpg" alt=""> -->
+            <%=image_tag('supertabs.jpg', alt: '') %>
+            <header>
+              <h5 class="title">Around the world</h5>
+              <h6 class="subtitle">We are available</h6>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae a aut consequatur similique tempora excepturi iusto provident eum quam aperiam id est, voluptas recusandae quisquam, pariatur rerum tempore atque illo!</p>
+          </div>
+          <div id="drivers" class="tab-pane fade">
+            <!-- <img src="img/supertabs-2.jpg" alt=""> -->
+            <%=image_tag('supertabs-2.jpg', alt: '') %>
+            <header>
+              <h5 class="title">Our location</h5>
+              <h6 class="subtitle">We are available</h6>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae a aut consequatur similique tempora excepturi iusto provident eum quam aperiam id est, voluptas recusandae quisquam, pariatur rerum tempore atque illo!</p>
+          </div>
+          <div id="location" class="tab-pane fade">
+            <!-- <img src="img/supertabs-3.jpg" alt=""> -->
+            <%=image_tag('supertabs-3.jpg', alt: '') %>
+            <header>
+              <h5 class="title">Our location</h5>
+              <h6 class="subtitle">We are available</h6>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae a aut consequatur similique tempora excepturi iusto provident eum quam aperiam id est, voluptas recusandae quisquam, pariatur rerum tempore atque illo!</p>
+          </div>
+        </div>
+        <!-- End Tab-Content -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End Supertabs -->
+
+  <%= render 'layouts/shared/partners' %>
+
+ 
+
