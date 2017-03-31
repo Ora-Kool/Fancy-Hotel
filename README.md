@@ -22,7 +22,7 @@ Things you may want to cover:
 - bundle install
 
 * How to run the test suite
-- run rails s on the in the project
+- run rails s in the project, using terminal
 
 * Services (job queues, cache servers, search engines, etc.)
 
