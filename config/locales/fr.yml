@@ -1,0 +1,45 @@
+fr:
+  layouts:
+    shared:
+      header:
+        home:  "Accueil"
+        rooms: "chambre"
+        rooms_available: "Chambres disponibles"
+        our_staff: "notre équipe"
+        locations: "Emplacements"
+        about_us: "À propos de nous"
+        testimonials: "Témoignages"
+        contact: "contact"
+      partners:
+        our_partners: "Nos partenaires"
+      footer:
+        about: "À propos"
+        latestnews: "Dernières nouvelles"
+        newsletter: "Bulletin"
+        stayin_touch: "Reste en contact"
+  pages:
+    index:
+      hotel:  "Hôtel"
+      resorts: "Stations"
+      private_suite: "Suites privées"
+      bednbfast: "Lit et petit-déjeuner"
+      book_now: "Reserve"
+      advance_search: "Recherche Avancée"
+      about_hotel: "À propos de l'hôtel"
+      read_more:  "Lire la suite"
+      our_services: "Nos services"
+      memberships: "Adhésions"
+      our_agents: "Nos agents"
+      our_offices: "Nos bureaux"
+      testimonials: "Témoignages"
+      standard: "Normes les plus élevées"
+      qauli_staff: "Personnel qualifié"
+      around_cameroon: "Autour du monde"
+
+
+
+
+
+
+
+

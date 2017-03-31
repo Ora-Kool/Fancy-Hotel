@@ -28,16 +28,24 @@
           <div class="container">
               <div id="hero-tabs" class="banner-search-inner">
                 <ul class="custom-list tab-title-list clearfix">
-                  <li class="tab-title active"><a>Hotel</a></li>
-                  <li class="tab-title"><a>Resorts</a></li>
-                  <li class="tab-title"><a>Private suites</a></li>
-                  <li class="tab-title"><a>Bed & breakfast</a></li>
+                  <li class="tab-title active"><a>
+                    <%= t('.hotel')%>
+                  </a></li>
+                  <li class="tab-title"><a>
+                    <%= t('.resorts') %>
+                  </a></li>
+                  <li class="tab-title"><a>
+                    <%= t('.private_suite') %>
+                  </a></li>
+                  <li class="tab-title"><a>
+                    <%= t('.bednbfast')%>
+                  </a></li>
                 </ul>
                 <ul class="custom-list tab-content-list">
 
                   <!-- Start Hotel -->
                   <li class="tab-content active">
-                    <form action="index.html" class="default-form">
+                    <form action="#" class="default-form">
                       <span class="arrival calendar">
                         <input type="text" name="arrival" placeholder="Arrival" data-dateformat="m/d/y">
                         <i class="fa fa-calendar"></i>
@@ -48,7 +56,7 @@
                       </span>
                       <span class="adults select-box">
                         <select name="adults" data-placeholder="Adults" class="form-control">
-                          <option>Adults</option>
+                          <option></option>
                           <option value="1">1 adult</option>
                           <option value="2">2 adults</option>
                           <option value="3">3 adults</option>
@@ -65,8 +73,12 @@
                         </select>
                       </span>
                       <span class="submit-btn">
-                        <button class="btn btn-transparent">Book Now</button>
-                        <a href="#" class="advanced">Advanced Search</a>
+                        <button class="btn btn-transparent">
+                          <%= t('.book_now')%>
+                        </button>
+                        <a href="#" class="advanced">
+                          <%= t('.advance_search') %>
+                        </a>
                       </span>
                     </form>
                   </li>
@@ -100,8 +112,12 @@
                         </select>
                       </span>
                       <span class="submit-btn">
-                        <button class="btn btn-transparent">Book Now</button>
-                        <a href="#" class="advanced">Advanced Search</a>
+                        <button class="btn btn-transparent">
+                          <%= t('.book_now')%>
+                        </button>
+                        <a href="#" class="advanced">
+                          <%= t('.advance_search') %>
+                        </a>
                       </span>
                     </form>
                   </li>
@@ -135,8 +151,12 @@
                         </select>
                       </span>
                       <span class="submit-btn">
-                        <button class="btn btn-transparent">Book Now</button>
-                        <a href="#" class="advanced">Advanced Search</a>
+                        <button class="btn btn-transparent">
+                          <%= t('.book_now')%>
+                        </button>
+                        <a href="#" class="advanced">
+                          <%= t('.advance_search') %>
+                        </a>
                       </span>
                     </form>
                   </li>
@@ -170,8 +190,12 @@
                         </select>
                       </span>
                       <span class="submit-btn">
-                        <button class="btn btn-transparent">Book Now</button>
-                        <a href="#" class="advanced">Advanced Search</a>
+                        <button class="btn btn-transparent">
+                          <%= t('.book_now')%>
+                        </button>
+                        <a href="#" class="advanced">
+                          <%= t('.advance_search') %>
+                        </a>
                       </span>
                     </form>
                   </li>
@@ -193,7 +217,9 @@
     <div class="container">
       <div class="row">
         <div class="preamble col-md-12">
-          <h3>About Fancy Hotel</h3>
+          <h3>
+            <%= t('.about_hotel')%>
+          </h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eius exercitationem ab aspernatur, ratione officia animi. Rerum necessitatibus, culpa. Tenetur incidunt quasi unde libero molestias dicta doloremque, non aliquam ipsam!</p>
         </div>
         <div class="col-md-3 col-sm-6 feature text-center">
@@ -202,11 +228,15 @@
             <%=image_tag('about1.jpg', alt: '', class: 'img-responsive') %>
             <div class="overlay-shadow">
               <div class="overlay-content">
-                <a href="#" class="btn btn-transparent-white">Read More</a>
+                <a href="#" class="btn btn-transparent-white">
+                  <%= t('.read_more') %>
+                </a>
               </div>
             </div>
           </div>
-          <h4>Our Services</h4>
+          <h4>
+            <%= t('.our_services')%>
+          </h4>
           <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
         </div>
         
@@ -216,11 +246,15 @@
             <%=image_tag('about2.jpg', alt: '', class: 'img-responsive') %>
             <div class="overlay-shadow">
               <div class="overlay-content">
-                <a href="#" class="btn btn-transparent-white">Read More</a>
+                <a href="#" class="btn btn-transparent-white">
+                  <%= t('.read_more') %>
+                </a>
               </div>
             </div>
           </div>
-          <h4>Memberships</h4>
+          <h4>
+            <%= t('.memberships') %>
+          </h4>
           <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
         </div>
 
@@ -230,11 +264,15 @@
             <%=image_tag('about3.jpg', alt: '', class: 'img-responsive') %>
             <div class="overlay-shadow">
               <div class="overlay-content">
-                <a href="#" class="btn btn-transparent-white">Read More</a>
+                <a href="#" class="btn btn-transparent-white">
+                  <%= t('.read_more') %>
+                </a>
               </div>
             </div>
           </div>
-          <h4>Our Agents</h4>
+          <h4>
+            <%= t('.our_agents')%>
+          </h4>
           <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
         </div>
 
@@ -244,11 +282,16 @@
             <%=image_tag('about4.jpg', alt: '', class: 'img-responsive') %>
             <div class="overlay-shadow">
               <div class="overlay-content">
-                <a href="#" class="btn btn-transparent-white">Read More</a>
+                <a href="#" class="btn btn-transparent-white">
+                <%= t('.read_more') %>
+                  
+                </a>
               </div>
             </div>
           </div>
-          <h4>Our Offices</h4>
+          <h4>
+            <%= t('.our_office')%>
+          </h4>
           <p>Lorem ipsum dolor sit amet, consect adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
         </div>
       </div>
@@ -267,7 +310,9 @@
     <div class="container">
       <div class="row">
         <div class="preamble light col-md-12">
-          <h3>Testimonials</h3>
+          <h3>
+            <%= t('.testimonials') %>
+          </h3>
         </div>
 
         <div class="col-md-12">
@@ -277,7 +322,7 @@
             <div class="item">
               <div class="col-lg-12">
                 <blockquote class="quote">
-                  <cite>John Doe<span class="job">CEO - UOUapps</span></cite>
+                  <cite>Name X<span class="job">CEO - XYZ</span></cite>
                   <p class="stars">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -295,7 +340,7 @@
             <div class="item">
               <div class="col-lg-12">
                 <blockquote class="quote">
-                  <cite>John Kowalski<span class="job">CEO - UOUapps</span></cite>
+                  <cite>Name XY<span class="job">CEO - YYY</span></cite>
                   <p class="stars">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -313,7 +358,7 @@
             <div class="item">
               <div class="col-lg-12">
                 <blockquote class="quote">
-                  <cite>John Doe<span class="job">CEO - UOUapps</span></cite>
+                  <cite>Name YX<span class="job">CEO - ZZZ</span></cite>
                   <p class="stars">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -344,19 +389,25 @@
           <ul class="custom-list">
             <li class="active">
               <a data-toggle="tab" href="#fleet">
-                <h5 class="title">Highest Standards</h5>
+                <h5 class="title">
+                  <%= t('.standard') %>
+                </h5>
                 <h6 class="subtitle">No compromises</h6>
               </a>
             </li>
             <li>
               <a data-toggle="tab" href="#drivers">
-                <h5 class="title">Qualified Staff</h5>
+                <h5 class="title">
+                  <%= t('.qauli_staff')%>
+                </h5>
                 <h6 class="subtitle">You are in good hands</h6>
               </a>
             </li>
             <li>
               <a data-toggle="tab" href="#location">
-                <h5 class="title">Around the World</h5>
+                <h5 class="title">
+                  <%= t('.around_cameroon') %>
+                </h5>
                 <h6 class="subtitle">Meet us everywhere</h6>
               </a>
             </li>
@@ -370,7 +421,7 @@
             <!-- <img src="img/supertabs.jpg" alt=""> -->
             <%=image_tag('supertabs.jpg', alt: '') %>
             <header>
-              <h5 class="title">Around the world</h5>
+              <h5 class="title">Around Cameroon</h5>
               <h6 class="subtitle">We are available</h6>
             </header>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae a aut consequatur similique tempora excepturi iusto provident eum quam aperiam id est, voluptas recusandae quisquam, pariatur rerum tempore atque illo!</p>

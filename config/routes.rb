@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/about-us', to: 'pages#about_us'
   get '/peoples-testimonies', to: 'pages#testimonials'
   get '/contact-us', to: 'pages#contact_us'
+  get '/change-locale/:locale', to: 'language_setting#change_locale', as: :change_locale
   
 
 

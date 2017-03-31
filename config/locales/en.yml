@@ -20,4 +20,58 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts:
+    shared:
+      header:
+        home: "Home"
+        rooms: "Rooms"
+        rooms_available: "Rooms Available"
+        our_staff: "Our Staff"
+        locations: 'Locations'
+        about_us: "about us"
+        testimonials: "Testimonials"
+        contact: "Contact"
+      partners:
+        our_partners: "Our Partners"
+      footer:
+        about: "About"
+        latestnews: "Latest News"
+        newsletter: "Newsletter"
+        stayin_touch: "Stay in touch"
+  pages:
+    index:
+      hotel: "Hotel"
+      resorts: "Resorts"
+      private_suite: "Private suites"
+      bednbfast: "Bed & Breakfast"
+      book_now: "Book Now"
+      advance_search:   "Advanced Search"
+      about_hotel:  "About Hotel"
+      read_more:  "Read More"
+      our_services: "Our Services"
+      memberships: "Memberships"
+      our_agents: "Our Agents"
+      our_offices: "Our Offices"
+      testimonials: "Testimonials"
+      standard: "Highest Standards"
+      qauli_staff: "Qualified Staff"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

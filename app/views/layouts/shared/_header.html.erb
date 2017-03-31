@@ -6,7 +6,7 @@
           <div class="col-lg-5 col-md-5 col-sm-12">
             <ul class="contact-info custom-list list-inline">
               <li><i class="fa fa-phone"></i><span>+ (237) 662-973-406</span></li>
-              <li><i class="fa fa-envelope"></i><span style="text-transform: none">stay@fancyhotel.com</span></li>
+              <li><i class="fa fa-envelope"></i><span style="text-transform: none">edward.bhent@gmail.com</span></li>
             </ul>
           </div>
           <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-right pull-right">
@@ -40,11 +40,22 @@
                 </div>
               </div>
               <div class="header-language">
-                <button class="header-btn"><i class="fa fa-globe"></i>EN</button>
+                <button class="header-btn"><i class="fa fa-globe"></i>
+                <%if cookies[:hotel_locale] == 'en' %>
+                  EN
+                <%else%>
+                  FR
+                <%end%>
+
+                </button>
                 <nav class="header-nav">
                   <ul class="custom-list">
-                    <li><a href="#">FR</a></li>
-                    <li><a href="#">EN</a></li>
+                    <li>
+                       <%= link_to "FR", change_locale_path(:fr) %>
+                    </li>
+                    <li>
+                        <%= link_to "EN", change_locale_path(:en) %>
+                    </li>
                   </ul>
                 </nav>
               </div>
@@ -60,11 +71,17 @@
             <div class="row">
               <div class="col-lg-5 col-md-5 col-sm-12">
                 <ul class="nav navbar-nav main-nav">
-                  <li class="active"><a href="/">Home</a></li>
+                  <li class="active"><a href="/">
+                    <%= t('.home') %>
+                  </a></li>
                   <li class="has-submenu">
-                    <a href="#">Rooms</a>
+                    <a href="#">
+                      <%= t('.rooms')%>
+                    </a>
                     <ul class="sub-menu custom-list">
-                      <li><a href="/rooms-available-list">Rooms Available List</a></li>
+                      <li><a href="/rooms-available-list">
+                        <%= t('.rooms_available') %>
+                      </a></li>
                       <!-- <li><a href="listing2.html">Rooms Grid View</a>
                       </li>
                       <li class="has-submenu">
@@ -83,21 +100,31 @@
                       </li> -->
                     </ul>
                   </li>
-                  <li><a href="/our-stuffs">Our Staff</a></li>
-                  <li><a href="/our-location">Locations</a></li>
+                  <li><a href="/our-stuffs">
+                    <%= t('.our_staff') %>
+                  </a></li>
+                  <li><a href="/our-location">
+                    <%= t('.locations') %>
+                  </a></li>
                 </ul>
               </div>
               <div class="col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-12 col-sm-offset-0">
                 <ul class="nav navbar-nav main-nav pull-right text-right">
-                  <li><a href="/about-us">About Us</a></li>
-                  <li><a href="/peoples-testimonies">Testimonials</a></li>
+                  <li><a href="/about-us">
+                    <%= t('.about_us')%>
+                  </a></li>
+                  <li><a href="/peoples-testimonies">
+                    <%= t('.testimonials') %>
+                  </a></li>
                   <!-- <li class="has-submenu">
                     <a href="news.html">News</a>
                     <ul class="sub-menu custom-list">
                       <li><a href="#">Single Post</a></li>
                     </ul>
                   </li> -->
-                  <li><a href="/contact-us">Contact</a></li>
+                  <li><a href="/contact-us">
+                    <%= t('.contact') %>
+                  </a></li>
                 </ul>
               </div>
             </div>
